@@ -32,8 +32,8 @@ The forecasts can be used by farmers and irrigation planners to optimize water u
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/your-username/rainfall-forecast-nbeats.git
-cd rainfall-forecast-nbeats
+git clone https://github.com/your-username/Rainfall-Forecasting.git
+cd Rainfall-Forecasting
 ```
 
 ### 2. Create Environment (Anaconda recommended)
@@ -57,7 +57,7 @@ pip install -r requirements.txt
 
 ## 📊 Dataset
 
-* **Source**: Indian Meteorological Department (IMD) / OpenCity dataset for Bengaluru
+* **Source**: OpenCity dataset for Bengaluru
 * **File**: `blr_rain.csv`
 * **Columns**:
 
@@ -100,24 +100,20 @@ python predict_nbeats.py
 * Plots forecast graph.
 * Prints forecast values:
 
-```
-🌧 Next 7 days rainfall forecast (mm):
-2024-09-02: 3.21 mm
-2024-09-03: 1.07 mm
-...
-```
+
+<img width="382" height="188" alt="image" src="https://github.com/user-attachments/assets/21e56e20-58f1-4f12-a29f-11f2af4c7d4f" />
+
+
 
 ---
 
 ## 📈 Example Output Plot
 
-*(screenshot your Matplotlib output and include here)*
+<img width="1000" height="500" alt="plot" src="https://github.com/user-attachments/assets/c072965f-708f-47b2-83e0-19d12d57a47a" />
 
 ```
 7-Day Rainfall Forecast (Bengaluru)
 ```
-
-Orange line = Predicted rainfall for next 7 days.
 
 ---
 
@@ -132,15 +128,6 @@ Orange line = Predicted rainfall for next 7 days.
 
 ---
 
-## 🔮 Future Improvements
-
-* [ ] Add **temperature features** (`Temp Max`, `Temp Min`) for multivariate forecasting.
-* [ ] Include **uncertainty estimation** using Monte Carlo Dropout.
-* [ ] Train on multiple cities (transfer learning for Indian regions).
-* [ ] Deploy as a **Flask/FastAPI web app** for farmers.
-
----
-
 ## 📚 References
 
 * Oreshkin, B. N., Carpov, D., Chapados, N., & Bengio, Y. (2019). *N-BEATS: Neural basis expansion analysis for interpretable time series forecasting*. ICLR.
@@ -151,10 +138,8 @@ Orange line = Predicted rainfall for next 7 days.
 
 ## 👨‍💻 Author
 
-* **Your Name** – *Machine Learning & AI Enthusiast*
+* **DHINESH A M** – *Machine Learning & AI Enthusiast*
 * 🌱 Focused on **AI for Agriculture**
-* 📫 Reach me at: [your.email@example.com](mailto:your.email@example.com)
+* 📫 Reach me at: [LINKEDIN](https://www.linkedin.com/in/dhinesh-a-m-a0637234b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)
 
 ---
-
-👉 Do you want me to also create a **`environment.yml` (Conda style)** file alongside `requirements.txt` so anyone can just do `conda env create -f environment.yml` and get everything (including CUDA) in one go?
